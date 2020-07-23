@@ -1,0 +1,72 @@
+name: uCommands
+description: Unsocials Commands
+author: UnsocialLive
+version: 0.0.1
+api-version: 1.16
+main: me.dayton.uCommands.Main
+commands:
+  back:
+    description: Takes you back to your previous location.
+  bed:
+    description: Takes you to your bed location.
+  coords:
+    description: Shows your coordinates.
+  day:
+    description: Sets time to day.
+  enderchest:
+    description: Open your enderchest
+    aliases: ec
+  feed:
+    description: Feed the specified player.
+  fly:
+    description: Enable flight mode.
+  give:
+    description: Gives you the specified item.
+  gm:
+    description: Change the players gamemode.
+    aliases: gamemode
+  god:
+    description: Toggle godmode.
+  heal:
+    description: Heal the specified player.
+  home:
+    description: Takes you to your home location
+  invsee:
+    description: View a players inventory.
+  midnight:
+    description: Sets time to midnight.
+  msg:
+    description: Private message the specified player.
+    aliases: [whisper, pm]
+  nightvision:
+    description: Toggles nightvision.
+    aliases: nv
+  night:
+    description: Sets time to night.
+  noon:
+    description: Sets time to noon.
+  sethome:
+    description: Sets player home location.
+  setspawn:
+    description: Sets spawn location.
+  spawn:
+    description: Takes you to spawn location.
+  suicide:
+    description: Kills the player.
+  teleport:
+    description: Teleport you a player or location.
+    aliases: tp
+  top:
+    description: Takes you to the highest block at your Location.
+  tpa:
+    description: Request to teleport to player.
+  tpaccept:
+    description: Accept teleport request.
+  vanish:
+    description: Vanish from sight of other players.
+    aliases: v
+  weather:
+    description: Change current weather conditions.
+  workbench:
+    description: Opens a virtual Workbench.
+    aliases: wb
